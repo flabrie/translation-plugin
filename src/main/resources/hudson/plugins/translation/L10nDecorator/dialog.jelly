@@ -29,7 +29,8 @@ THE SOFTWARE.
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:f="/lib/form">
   <l:ajax>
     <style>
-      #l10n-dialog textarea { width:90% }
+      #l10n-dialog_c { background-color:whitesmoke; }
+      #l10n-dialog textarea { width:90%; }
       #l10n-dialog .localized { display:none; }
       #l10n-dialog .caption { float:left; width:40%; }
 

@@ -25,4 +25,21 @@ THE SOFTWARE.
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout">
   <j:set var="_" value="${it.startRecording(request)}"/>
   <l:yui module="cookie" suffix='-beta' />
+  <link rel="stylesheet" type="text/css" href="${resURL}/plugin/translation/resize-core.css"/>
+  <link rel="stylesheet" type="text/css" href="${resURL}/plugin/translation/resize.css"/>
+  <link rel="stylesheet" type="text/css" href="${resURL}/plugin/translation/resize-skin.css"/>
+  <!-- Sam Skin CSS -->
+  <link rel="stylesheet" type="text/css" href="${resURL}/plugin/translation/container.css"/>
+  <!-- OPTIONAL: You only need the YUI Button CSS if you're including YUI Button, mentioned below. -->
+  <link rel="stylesheet" type="text/css" href="${resURL}/plugin/translation/button.css"/>
+  <!-- YUI2 -->
+  <script src="${resURL}/plugin/translation/yahoo-min.js"></script>
+  <script src="${resURL}/plugin/translation/cookie-min.js"></script>
+  <script src="${resURL}/plugin/translation/resize-min.js"></script>
+  <script src="${resURL}/plugin/translation/yahoo-dom-event.js"></script>
+  <script src="${resURL}/plugin/translation/animation-min.js"></script>
+  <script src="${resURL}/plugin/translation/connection-min.js"></script>
+  <script src="${resURL}/plugin/translation/dragdrop-min.js"></script>
+  <script src="${resURL}/plugin/translation/element-min.js"></script>
+  <script src="${resURL}/plugin/translation/container-min.js"></script>
 </j:jelly>
